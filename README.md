@@ -1,4 +1,4 @@
-It is a task from [SPOJ](https://www.spoj.com/problems/ONEINSTR/)  
+This is a task from [SPOJ](https://www.spoj.com/problems/ONEINSTR/)  
 
 **A computer with one instruction:**
 
