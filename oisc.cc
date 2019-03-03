@@ -7,26 +7,24 @@ vector <string> q, results;
 int res, a1, b1, aminus, bminus, c, last_res, pos;
 int toInt (string x) {
 	int res;
-   istringstream iss(x);
-   iss >> res;
-   return res;
+	istringstream iss(x);
+  iss >> res;
+  return res;
 }
 string toString (int x) {
-  	ostringstream temp;
-  	temp<<x;
-  	string res=temp.str();
-  	return res;
+	ostringstream temp;
+  temp<<x;
+  string res=temp.str();
+  return res;
 }
 void newSubleq (string a, string b, string c) {
-  	results.push_back(a + " " + b + " " + c);
+  results.push_back(a + " " + b + " " + c);
 }
 int main() {
-
-	ios_base::sync_with_stdio(0);
-	
-	while (getline(cin,input)) {
-	
-   	results.clear();
+  ios_base::sync_with_stdio(0);
+  
+  while (getline(cin,input)) {
+    results.clear();
 		res = 9001;
 		newSubleq(toString(res), toString(res), " 12");
 		q.clear();
@@ -35,7 +33,7 @@ int main() {
 		pos=0;
 		
 		while (1) {
-      	if (pos >= input.size()) {
+      if (pos >= input.size()) {
       		break;
       	}
 			x = "";
