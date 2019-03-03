@@ -39,15 +39,15 @@ end_simulate
 
 Each iteration of the above while instruction is called a simulation cycle. You are to translate postfix instructions into this machine language. There are at most 100 arithematic terms and 99 operators. Numerical constants are non-negative and less than or equal to 10000.
 
-##Input
+## Input
 
 The input has several test cases, one test case per line. Each test case corresponds to an arithmetic expression in postfix notation. An expression may contain constants (integer values), input variables (M0 to M8) and arithmetic operators (+, -, *, /).
 
-##Output
+## Output
 
 For each test case, a program must be printed using the following format: First line indicates m, the number of instructions of the program; and the following m lines contain the program, one instruction per line, where each instruction is represented by 3 integer values separated by one blank space. Your outputed program must finish within 10^7 simlation cycles for each test case.
 
-##Example
+## Example
 
 
 Input:  
